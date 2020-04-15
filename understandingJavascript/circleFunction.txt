@@ -1,0 +1,13 @@
+function setup() {
+	createCanvas(800, 300);
+
+}
+
+function draw() {
+	background(1, 75, 100);
+	circle(width/2, height/2, 100);
+}
+
+function circle(x, y, diameter) {
+	ellipse(x, y, diameter, diameter);
+}
